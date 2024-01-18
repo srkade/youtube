@@ -2,6 +2,7 @@
   "name": "youtube",
   "version": "1.0.0",
   "description": "A Backend of youtube project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +12,8 @@
     "backend"
   ],
   "author": "Shrikrushna Ade",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
